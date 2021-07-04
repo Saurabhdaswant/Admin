@@ -1,11 +1,5 @@
-// import MainChildOne from "./Section";
-import Notification from "./Notification";
 const Main = () => {
-  return (
-    <div className="main">
-      <Notification />
-    </div>
-  );
+  return <div className="main"></div>;
 };
 
 export default Main;

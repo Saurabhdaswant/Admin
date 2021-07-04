@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  background-color: #121212;
 }
 
 img {
@@ -14,19 +15,18 @@ li {
   list-style: none;
 }
 
-.container {
+.App {
   display: flex;
-  justify-content: flex-end;
-  background-color: #121212;
-  /* text-align: left; */
+  /* background-color: #121212; */
 }
 
 /* user profile  */
-.userSection {
+.Navigation {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .logo {
@@ -77,7 +77,7 @@ li {
 .main {
   background-color: #f4f6f8;
   border-radius: 2.5rem 0 0 2.5rem;
-  width: 1400px;
+  width: 1000px;
   height: 100vh;
   display: flex;
   /* justify-content: space-between; */
@@ -244,9 +244,11 @@ input:focus {
 .main-child-two {
   background-color: #ffffff;
   width: 350px;
-  border-radius: 2.5rem 0;
-  padding: 2rem;
+  border-top-left-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+  padding: 0 2rem;
   font-weight: 500;
+  height: 100%;
 }
 
 /* header section of product page  */
@@ -277,6 +279,11 @@ input:focus {
 } */
 
 /* all notifications  */
+
+.notification {
+  background-color: #f4f6f8;
+}
+
 .main-child-two .notifications {
   color: #bbc1ce;
   background-color: #f4f6f8;

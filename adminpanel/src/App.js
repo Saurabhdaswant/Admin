@@ -1,13 +1,13 @@
-import Profile from "./components/Profile";
+import Navigation from "./components/Navigation";
 import Main from "./components/Main";
+import Notification from "./components/Notification";
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Profile />
-        <Main />
-      </div>
+      <Navigation />
+      <Main />
+      <Notification />
     </div>
   );
 }

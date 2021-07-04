@@ -1,19 +1,21 @@
-const Profile = () => {
+import { Link } from "react-router-dom";
+
+const Navigation = () => {
   return (
-    <div className="userSection">
+    <div className="Navigation">
       <div className="logo">
         <img src="svg/logo.svg" alt="" />
       </div>
       <div className="icons">
-        <div className="icon activeIcon">
+        <Link to="/Fut" className="icon activeIcon">
           <img src="svg/Bag.svg" alt="" />
-        </div>
-        <div className="icon">
+        </Link>
+        <Link to="/Note" className="icon">
           <img src="svg/customerCare.svg" alt="" />
-        </div>
-        <div className="icon">
+        </Link>
+        <Link to="/Fut" className="icon">
           <img src="svg/Calling.svg" alt="" />
-        </div>
+        </Link>
         <div className="icon vector">
           <img src="svg/Vector.svg" alt="" />
         </div>
@@ -28,4 +30,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Navigation;
