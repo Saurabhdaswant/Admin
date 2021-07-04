@@ -1,5 +1,5 @@
 const Statictis = () => {
-  return <div className="">rapper</div>;
+  return <div className="">Statictis</div>;
 };
 
 export default Statictis;

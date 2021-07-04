@@ -1,7 +1,6 @@
 import { Switch, Route } from "react-router-dom";
 
-import Note from "./Note";
-import Fut from "./Fut";
+import Fut from "../Fut";
 
 const Notification = () => {
   return (
@@ -14,7 +13,7 @@ const Notification = () => {
 
         <h3 className="day">Today</h3>
         <Switch>
-          <Route exact path="/Note" component={Note} />
+          <Route exact path="/" component={Fut} />
           <Route path="/Fut" component={Fut} />
         </Switch>
       </div>

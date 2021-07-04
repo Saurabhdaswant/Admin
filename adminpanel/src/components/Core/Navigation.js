@@ -7,24 +7,24 @@ const Navigation = () => {
         <img src="svg/logo.svg" alt="" />
       </div>
       <div className="icons">
-        <Link to="/Fut" className="icon activeIcon">
+        <Link to="/" className="icon activeIcon">
           <img src="svg/Bag.svg" alt="" />
         </Link>
-        <Link to="/Note" className="icon">
+        <Link to="/CustomServices" className="icon">
           <img src="svg/customerCare.svg" alt="" />
         </Link>
-        <Link to="/Fut" className="icon">
+        <Link to="/Calling" className="icon">
           <img src="svg/Calling.svg" alt="" />
         </Link>
-        <div className="icon vector">
+        <Link to="/Account" className="icon vector">
           <img src="svg/Vector.svg" alt="" />
-        </div>
-        <div className="icon ">
+        </Link>
+        <Link to="/Statictis" className="icon ">
           <img src="svg/arrow.svg" alt="" />
-        </div>
-        <div className="icon dolar">
+        </Link>
+        <Link to="/Money" className="icon dolar">
           <img src="svg/dolarr.svg" alt="" />
-        </div>
+        </Link>
       </div>
     </div>
   );

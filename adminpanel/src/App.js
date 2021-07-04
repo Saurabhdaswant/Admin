@@ -1,6 +1,6 @@
-import Navigation from "./components/Navigation";
-import Main from "./components/Main";
-import Notification from "./components/Notification";
+import Navigation from "./components/Core/Navigation";
+import Main from "./components/Core/Main";
+import Notification from "./components/Core/Notification";
 
 function App() {
   return (
