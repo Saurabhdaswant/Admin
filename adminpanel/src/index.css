@@ -117,13 +117,8 @@ input:focus {
 
 .searchsvg {
   border-radius: 15px;
-  padding: 2px;
   margin: 5px;
   background-color: #f4f6f8;
-}
-
-.searchsvg img {
-  width: 2rem;
 }
 
 /* status section  */
