@@ -283,7 +283,7 @@ input:focus {
 .main-child-two .notifications {
   color: #bbc1ce;
   background-color: #f4f6f8;
-  border-radius: 1rem;
+  border-radius: 1.875rem;
   padding: 0 1.375rem;
   margin-bottom: 1rem;
 }
@@ -349,8 +349,8 @@ input:focus {
   width: 180px;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   body {
     background-color: #00d930;
   }
-} */
+}
