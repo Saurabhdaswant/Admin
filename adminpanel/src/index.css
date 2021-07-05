@@ -45,7 +45,7 @@ li {
 .icons {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.375rem;
 }
 
 .icon {
@@ -53,7 +53,7 @@ li {
   height: 4.063rem;
   border-radius: 20px;
   background-color: #373b3f;
-  padding: 5px;
+  /* padding: 5px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,15 +99,17 @@ li {
 /* seacth input  */
 
 .input {
-  height: 3rem;
+  height: 3.5rem;
   background-color: #ffffff;
   border-radius: 15px;
   display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 input {
   border-radius: 15px;
-  width: 17rem;
+  width: 27.063rem;
   border: none;
 }
 
@@ -116,8 +118,13 @@ input:focus {
 }
 
 .searchsvg {
-  border-radius: 15px;
-  margin: 5px;
+  /* padding: 0.75rem 0.813rem; */
+  padding: 0.6rem 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 0.563rem 1.063rem 0.563rem 0;
   background-color: #f4f6f8;
 }
 
@@ -255,6 +262,9 @@ input:focus {
 
 .main-child-two .day {
   color: #9e9d9d;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
 }
 
 .notification {
@@ -271,17 +281,27 @@ input:focus {
   color: #bbc1ce;
   background-color: #f4f6f8;
   border-radius: 1rem;
-  padding: 0rem 1rem 0.2rem 1rem;
+  padding: 0 1.375rem;
   margin-bottom: 1rem;
 }
 
 .notification__type {
   color: #9e9d9d;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.notification__id {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 2.25rem;
 }
 
 .notification__order {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .notification--ordertype {
@@ -289,7 +309,7 @@ input:focus {
 }
 
 .orderImg {
-  max-width: 3.5rem;
+  max-width: 83px;
 }
 
 .notification__orderName p {
@@ -302,17 +322,32 @@ input:focus {
   flex-direction: column;
   justify-content: center;
   margin: 0 1rem;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .order__name {
   color: #121212;
   font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .order__time {
   display: flex;
   justify-content: flex-end;
+  padding-bottom: 1rem;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
 }
 .productImg img {
   width: 180px;
 }
+
+/* @media (min-width: 768px) {
+  body {
+    background-color: #00d930;
+  }
+} */

@@ -25,7 +25,7 @@ const Main = () => {
         <div className="main__child-one__progressChart">
           <div className="progreesContainer">
             <Switch>
-              <Route exact path="/" component={Chart} />
+              {/* <Route exact path="/" component={Chart} /> */}
               <Route path="/Calling" component={Calling} />
               <Route path="/Account" component={Account} />
               <Route path="/CustomServices" component={CustomServices} />

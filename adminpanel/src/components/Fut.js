@@ -4,7 +4,7 @@ const Fut = () => {
       <div className="">
         <div className="notification__order">
           <p className="notification__type">New Order</p>
-          <p>#238478</p>
+          <p className="notification__id">#238478</p>
         </div>
         <div className="notification--ordertype">
           <div className="orderImg">
