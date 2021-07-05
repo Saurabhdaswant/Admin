@@ -49,8 +49,11 @@ li {
 }
 
 .icon {
-  width: 4.063rem;
-  height: 4.063rem;
+  /* width: 4.063rem;
+  height: 4.063rem; */
+
+  width: 3rem;
+  height: 3rem;
   border-radius: 20px;
   background-color: #373b3f;
   /* padding: 5px; */
@@ -60,12 +63,12 @@ li {
 }
 
 .icon img {
-  width: 60%;
+  /* width: 60%; */
 }
 
 .vector img,
 .dolar img {
-  width: 1.5rem;
+  /* width: 1.5rem; */
 }
 
 .icons .activeIcon {
