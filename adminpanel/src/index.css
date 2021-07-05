@@ -49,8 +49,8 @@ li {
 }
 
 .icon {
-  width: 3rem;
-  height: 3rem;
+  width: 4.063rem;
+  height: 4.063rem;
   border-radius: 20px;
   background-color: #373b3f;
   padding: 5px;
@@ -241,7 +241,7 @@ input:focus {
   width: 350px;
   border-top-left-radius: 2.5rem;
   border-bottom-left-radius: 2.5rem;
-  padding: 0 2rem;
+  padding: 0 2.438rem;
   font-weight: 500;
   height: 100%;
 }
@@ -251,32 +251,20 @@ input:focus {
   display: flex;
   gap: 1rem;
   justify-content: flex-end;
-  margin-left: 1rem;
-  padding-right: 1rem;
 }
 
 .main-child-two .day {
   color: #9e9d9d;
-  margin-left: 1rem;
-  padding-right: 1rem;
 }
-
-/* the close button of product page  */
-/* .main-child-two .btn {
-  font-family: "Poppins", sans-serif;
-  padding: 0.5rem 2rem;
-  border-radius: 10px;
-  border: none;
-  background-color: #f4f6f8;
-  color: #fe0b0b;
-  font-weight: 700;
-  font-size: 1rem;
-} */
-
-/* all notifications  */
 
 .notification {
   background-color: #f4f6f8;
+}
+
+.main-child-two .head p {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
 }
 
 .main-child-two .notifications {
