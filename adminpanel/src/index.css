@@ -104,13 +104,14 @@ li {
   border-radius: 1.4rem;
   display: flex;
   align-items: center;
+  width: 27.063rem;
   /* justify-content: center; */
 }
 
 input {
   border-radius: 1.563rem;
-  width: 27.063rem;
   border: none;
+  width: 100%;
 }
 
 input:focus {
@@ -249,7 +250,7 @@ input:focus {
 /* main__second--section  / product page  */
 .main-child-two {
   background-color: #ffffff;
-  width: 350px;
+  width: 32rem;
   border-top-left-radius: 2.5rem;
   border-bottom-left-radius: 2.5rem;
   padding: 0 2.438rem;
@@ -286,7 +287,9 @@ input:focus {
   background-color: #f4f6f8;
   border-radius: 1.875rem;
   padding: 0 1.375rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  margin: 0 auto;
+  max-width: 26rem;
 }
 
 .notification__type {
