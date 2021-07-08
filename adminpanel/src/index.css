@@ -237,11 +237,11 @@ input:focus {
 /* main__second--section  / product page  */
 .main-child-two {
   background-color: #ffffff;
-  width: 32.75rem;
+  max-width: 30rem;
   border-top-left-radius: 2.5rem;
   border-bottom-left-radius: 2.5rem;
   height: 100%;
-  padding: 0 0.938rem;
+  padding: 0 1.5rem;
 }
 
 /* header section of product page  */
