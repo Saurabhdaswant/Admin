@@ -17,7 +17,6 @@ li {
 
 .App {
   display: flex;
-  /* background-color: #121212; */
 }
 
 /* user profile  */
@@ -25,7 +24,6 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0rem auto;
   padding: 3rem 2rem 0 2rem;
 }
 
@@ -34,7 +32,7 @@ li {
   height: 4.688rem;
   border-radius: 50%;
   background-color: #f4f6f8;
-  margin: 1rem 0 5rem 0;
+  margin: 1rem 0 8.688rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,19 +51,9 @@ li {
   height: 4.063rem;
   border-radius: 1.563rem;
   background-color: #373b3f;
-  /* padding: 5px; */
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.icon img {
-  /* width: 60%; */
-}
-
-.vector img,
-.dolar img {
-  /* width: 1.5rem; */
 }
 
 .icons .activeIcon {
@@ -77,11 +65,8 @@ li {
 .main {
   background-color: #f4f6f8;
   border-radius: 2.5rem 0 0 2.5rem;
-  width: 1000vw;
+  width: 100%;
   height: 100vh;
-  display: flex;
-  /* justify-content: space-between; */
-  justify-content: flex-end;
 }
 
 /* main__first--section */
@@ -105,7 +90,6 @@ li {
   display: flex;
   align-items: center;
   width: 27.063rem;
-  /* justify-content: center; */
 }
 
 input {
@@ -170,7 +154,6 @@ input:focus {
 
 .progreesContainer {
   background-color: #ffffff;
-
   border-radius: 3rem;
   max-width: 1000px;
   margin: 0 auto;
@@ -247,15 +230,18 @@ input:focus {
   background-color: #00d930;
 }
 
+.notification {
+  background-color: #f4f6f8;
+}
+
 /* main__second--section  / product page  */
 .main-child-two {
   background-color: #ffffff;
-  width: 32rem;
+  width: 32.75rem;
   border-top-left-radius: 2.5rem;
   border-bottom-left-radius: 2.5rem;
-  padding: 0 2.438rem;
-  font-weight: 500;
   height: 100%;
+  padding: 0 0.938rem;
 }
 
 /* header section of product page  */
@@ -263,6 +249,7 @@ input:focus {
   display: flex;
   gap: 1rem;
   justify-content: flex-end;
+  padding: 4rem 0 0 0;
 }
 
 .main-child-two .day {
@@ -272,14 +259,15 @@ input:focus {
   line-height: 2.25rem;
 }
 
-.notification {
-  background-color: #f4f6f8;
-}
-
 .main-child-two .head p {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 2.25rem;
+}
+
+.theHead {
+  width: 29.77rem;
+  margin: 0 auto;
 }
 
 .main-child-two .notifications {
@@ -287,9 +275,9 @@ input:focus {
   background-color: #f4f6f8;
   border-radius: 1.875rem;
   padding: 0 1.375rem;
-  /* margin-bottom: 1rem; */
+  width: 26.938rem;
   margin: 0 auto;
-  max-width: 26rem;
+  margin-bottom: 1rem;
 }
 
 .notification__type {
@@ -328,10 +316,10 @@ input:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 1rem;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
+  padding: 0 1.375rem;
 }
 
 .order__name {
